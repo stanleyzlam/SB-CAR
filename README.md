@@ -18,9 +18,9 @@ The main goal with this analysis was to map the genomic insertion site profile o
 5. Comparative figures (e.g. MAJESTIC vs MC) require reference .bed files that are included in this repository. They were obtained either from Supplementary Data or direct request from two publications: Miskey et al. 2022, Nucleic Acids Research https://academic.oup.com/nar/article/50/5/2807/6533617#340619945 and Querques et al. 2019, Nature Biotechnology https://www.nature.com/articles/s41587-019-0291-z. We thank Csaba Miskey for sharing data from Querques et al, 2019. Data from Querques et al were originally aligned against the hg19 genome and were thus lifted to the hg38 assembly using the web LiftOver tool at https://genome.ucsc.edu/cgi-bin/hgLiftOver (Minimum ratio of bases that overlap = 0.95).
 
 
-## Set up directories for data processing
+## Set up directories for data processing via raw-to-sam.sh and sam-to-bed.sh
 
-/home/ks2547/project/Splinkerette/grch38/genome --> contains indexed GRCh38 human genome assembly
+/home/ks2547/project/Splinkerette/grch38/genome --> contains indexed GRCh38 human genome assembly **Please change this directory to where you keep your indexed genome files in your own run-through**
 
 Root directory: "/home/ks2547/project/Splinkerette/11282022_Miseq/Fastq"
 
@@ -31,7 +31,7 @@ Root directory: "/home/ks2547/project/Splinkerette/11282022_Miseq/Fastq"
 (Root)/bed --> contains all output .bed files
 
 
-## Set up directories for data visualization in R
+## Set up directories for data visualization via splink_visualization.R
 Root directory: "/Users/kazushisuzuki/Desktop/MAJESTIC"
 
 (Root)/20221128_Miseq/Fastq/bed --> where sample .bed files are stored
