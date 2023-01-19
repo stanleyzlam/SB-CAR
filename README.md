@@ -36,9 +36,11 @@ Root directory: "/Users/kazushisuzuki/Desktop/MAJESTIC"
 
 (Root)/20221128_Miseq/Fastq/bed --> where sample .bed files are stored
 
-(Root)/hssb_files --> contains comparison files (safe harbors, lentiviral insertion profile, etc.) from Querques et al., 2019
+(Root)/hssb_files --> contains comparison .bed files (safe harbors, lentiviral insertion profile, etc.) from Querques et al., 2019
 
 (Root)/random --> contains a .bed file with 1e6 randomly generated sequences
+
+(Root)/functional_gene_regions/merged --> contains functionally annotated gene region .bed files 
 
 (Root)/figures/karyogram/unique --> output for karyogram plots
 
