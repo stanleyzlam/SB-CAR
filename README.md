@@ -5,7 +5,7 @@ The main goal with this analysis was to map the genomic insertion site profile o
 
 
 ## Quick Workflow: 
-1. Use raw-to-sam.sh to convert raw .fastq files to .sam format. Requires bbduk.sh
+1. Use raw-to-sam.sh to convert raw .fastq files to .sam format. Requires bbduk.sh from BBTools
 2. Use sam-to-bed.sh to convert .sam files to .bed format. 
 3. Use splink_visualization.R to convert .bed files to GRanges objects, which can then be used to generate a variety of visualizations including karyograms and figures showing frequency of genomic safe harbor and functional gene region insertions. 
 
