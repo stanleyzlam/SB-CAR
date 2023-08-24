@@ -1,6 +1,6 @@
 # SB-CAR
 
-Code for insertion site mapping analysis for Ye et al. 2023 (In-Revision at Nature Biomedical Engineering). 
+Code for insertion site mapping analysis for Ye et al. 2023 (Nature Biomedical Engineering; https://www.nature.com/articles/s41551-023-01058-6). 
 The main goal with this analysis was to map the genomic insertion site profile of our new gene-transfer method MAJESTIC and to compare its insertion profile with that of the Minicircle/mRNA gene transfer method. We sequenced three cell samples side-by-side, with three technical replicates each: 1) AAV+mRNA (CAR-Ts generated via Majestic), 2) MC+mRNA (CAR-Ts generated via Minicircle/mRNA electroporation), and 3) AAVonly (control T cells). 
 
 
